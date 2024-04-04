@@ -275,7 +275,9 @@
           <div class="back_blog {% if mod != 0 %} image-left {% else %} image-right {% endif %}">
               {% capture article_cnt %}
                 <div class="blog_title four-tenths column medium-down--sixteen small-down--sixteen">
+                <a class="blog__link" href="{{ article.url }}" title="{{ article.title | escape }}">
                   <h2>{{ article.title }}</h2>
+                </a>
                   <p> {{ article.content | truncate: 100 }}{% include 'icon-right-arrow-new' %}</p>
                 </div>
               {% endcapture %}
