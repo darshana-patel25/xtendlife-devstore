@@ -129,8 +129,8 @@
 	color: #fff !important;
 }
 .ingredient-card__image img {
-	/* width: revert-layer;
-	border-radius: 20px; */
+	width: revert-layer;
+	border-radius: 20px;
 }
   @media only screen and (min-width: 480px) {
     .ingredient-card__product {
